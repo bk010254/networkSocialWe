@@ -1,0 +1,292 @@
+/* Navbar */
+.navbar {
+    background-color: #3abce4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    min-height: 70px;
+  }
+
+  .Navbarcolor{
+    background-color: #00bcd4;
+  }
+  
+
+  /* Remove bullet points from the ul */
+.navMenu {
+    list-style: none;
+  }
+  
+  /* Remove underline from the anchor tags */
+  .navLink {
+    text-decoration: none;
+  }
+
+  .custom-icon {
+    font-size: 24px;
+    color: #FFF;
+    margin: 5px;
+    
+  }
+  .custom-icon-user{
+    font-size: 24px;
+    color: #FFF;
+    margin: 5px;
+  }
+  
+  
+  /* Logo */
+  .logo {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  /* Navigation Menu */
+  .navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+  }
+  
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+
+
+  /* IconComponent.css */
+/* Navbar.css */
+
+/* Modal */
+/* Navbar.css */
+
+/* Modal */
+.modal {
+  display: none; /* Initially hidden */
+  position: fixed;
+  z-index: 1000; /* Ensure modal appears on top of other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  overflow: auto; /* Enable scrolling if modal content exceeds viewport */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #0e0a0a;
+  margin: 10% auto; /* Center the modal vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Adjust width as needed */
+  max-width: 600px; /* Maximum width */
+}
+
+/* Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* src/App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-bottom: 20px;
+}
+
+.popup-content button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.yesButton{
+  width: 20px;
+  height: 20px;
+  background-color: #e44d3a;
+}
+.MainLogoBrand{
+  width: 160px;
+  height: 50px;
+ 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.nameLogo{
+  font-family: 'Arial Black', sans-serif;
+    font-size: 2rem;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nameLogo1{
+  font-family: 'Arial Black', sans-serif;
+    font-size: 2rem;
+    color: #e7c00e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.MainLogoBrand{
+  width: 30px;
+  height: 30px;
+  margin-top: -6px;
+  border-radius: 10px;
+}
+
+
+
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 780px) {
+    /* Hamburger Menu */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .bar {
+      background-color: #120f0b;
+      width: 20px;
+      height: 3px;
+      display: block;
+      margin: 5px;
+      transition: 0.3s ease-in-out;
+    }
+  
+    /* Navigation Menu */
+    .navMenu {
+      position: absolute;
+      flex-direction: column;
+      gap: 0;
+      top: 70px;
+      left: -100%;
+      text-align: start;
+      width: 100%;
+      transition: 0.7s ease-in-out;
+      background-color: aliceblue;
+      padding: 10px;
+    }
+  
+    .navMenu.active {
+      left: 0;
+    }
+  
+    .navMenu li {
+      margin: 16px 0;
+    }
+  }
+  @media screen and (max-width: 630px) {
+    .nameLogo{
+      font-family: 'Arial Black', sans-serif;
+        font-size: 25px;
+        margin-right: 275px;
+        color: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .nameLogo{
+      font-family: 'Arial Black', sans-serif;
+        font-size: 44px;
+        margin-right: 700px;
+        color: #e2ece3;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+    .nameLogo{
+      font-family: 'Arial Black', sans-serif;
+        font-size: 15px;
+        margin-right: 71px;
+       padding-top: 10px;
+        color: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+
+  

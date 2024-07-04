@@ -1,0 +1,277 @@
+
+
+
+.Profile-content{
+    gap: 0.5rem;
+    padding-bottom: 1.1rem;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.FriendTitle{
+ margin-left: 60px;
+  align-items: center;
+  justify-content: center;
+  color: #3083aa;
+  font-weight: bolder;
+  /* background-color: aqua; */
+}
+.listSearchFriends{
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+ background-color: #FFF;
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.profilePic{
+    gap: 1rem;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.user-locationD{
+    padding: 1rem 0px;
+}
+.locationuser{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+.EmpBag{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+.InputFormS {
+    width: 90%;
+    
+}
+/* FriendList.css */
+.friend-list-container {
+  justify-content: space-between;
+    /* border: 3px solid #e7ded7; */
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(167, 29, 29, 0.1); 
+    max-height: 400px; /* Set the maximum height of the container */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .friend-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .friend-profile {
+    display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  justify-content: center;
+ background-color: #FFF;
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 1rem;
+  }
+  
+  .friend-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+
+   .friend-profile p {
+    color: #0c0909;
+    
+   }
+   .FriendsAddIcon{
+    width: 60px;
+    height: 25px;
+    color: #e44d3a;
+   }
+
+   .posts-container {
+    max-height: 500px; /* Adjust the height as needed */
+    overflow-y: auto;
+    padding: 16px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+   
+
+   
+ /* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Form container */
+.post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Textarea styling */
+.post-textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 16px;
+}
+
+/* Hide the actual file input */
+.post-file-input {
+  display: none;
+}
+
+/* Custom file button styling */
+.custom-file-button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: '#FFF';
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.custom-file-button:hover {
+  background-color: #0056b3;
+}
+
+/* Button styling */
+/* .post-button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.post-button:hover {
+  background-color: #218838;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .post-form {
+    padding: 15px;
+  }
+
+  .post-textarea {
+    height: 80px;
+  }
+
+  .custom-file-button, .post-button {
+    font-size: 14px;
+  }
+}
+
+
+
+/* 2nd css */
+/* App.css */
+/* .App {
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin: 10px 0;
+}
+
+.post {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.comment-list {
+  margin-top: 20px;
+}
+
+.comment {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HomePage.css */

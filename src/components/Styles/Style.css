@@ -1,0 +1,19 @@
+/* styles.css */
+:root {
+    --background-color-light: #c72525;
+    --background-color-dark: #121212;
+    --text-color-light: #000000;
+    --text-color-dark: #9c2727;
+  }
+  
+  body {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+  }
+  

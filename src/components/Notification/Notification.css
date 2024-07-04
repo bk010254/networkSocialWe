@@ -1,0 +1,13 @@
+.mainNotification{
+    padding: 2rem 5%;
+    margin-left: 80px;
+    justify-content: center;
+}
+
+.MessageIcon{
+    width: 30px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}

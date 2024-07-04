@@ -1,0 +1,100 @@
+/* Add this CSS to your existing CSS file or create a new CSS file */
+.post-actions {
+    display: flex;
+    justify-content: flex-start; /* Move buttons to the left side */
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  .post-actions button {
+    margin-right: 15px; /* Add space between buttons */
+  }
+ .custom-file-button {
+    background-color: #3abce4;
+    font-weight: bolder;
+    
+ }
+ .descr-ThreeDots{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .post-button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #3abce4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: background-color 0.3s ease;
+  } */
+
+  .comment-button {
+    margin-left: auto; /* Move the "Comments" button to the right */
+  }
+  
+  .comment-button button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .comment-button button:hover {
+    color: #007bff; /* Change color on hover */
+  }
+
+
+  
+
+
+
+  /* Post.css */
+
+/* Post.css */
+
+.post {
+  /* existing styles */
+}
+
+.descr-ThreeDots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.options-dropdown {
+  display: none;
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 0;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.options-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.options-dropdown button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown when the showOptionsMenu state is true */
+.show .options-dropdown {
+  display: block;
+}
