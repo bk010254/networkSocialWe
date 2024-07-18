@@ -1,8 +1,8 @@
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns, each taking up half of the container */
-  gap: 20px; /* Spacing between the columns */
-  padding: 20px; /* Padding around the container */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
 }
 
 .branding {
